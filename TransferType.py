@@ -133,13 +133,15 @@ if __name__ == "__main__":
         if overall_passed<=0 and testcases<=0:
             overall_passed = 0
             testcases = 0
+            percentage = 0
+        else:
         #end of new added code ----
-        percentage = Decimal(overall_passed) / Decimal(testcases) * 100
-        totalper = str(percentage) + '%'
-        gen_report.write(
-            "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
-        writetime = open("writetime.txt","a")
-        writetime.write("TransferType Percentage= " + totalper + "\n")
+            percentage = Decimal(overall_passed) / Decimal(testcases) * 100
+            totalper = str(percentage) + '%'
+            gen_report.write(
+                "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
+            writetime = open("writetime.txt","a")
+            writetime.write("TransferType Percentage= " + totalper + "\n")
             
     if failed == 1:
         print"\n\n\n"
