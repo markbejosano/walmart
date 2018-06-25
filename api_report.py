@@ -133,6 +133,8 @@ for gettime in opentime:
 		ttype_per = 0
 
 #new code for computation (normal average)
+cflow_per = str(cflow_per)
+ttype_per = str(ttype_per)
 check_len_cflow = len(cflow_per)
 check_len_ttype = len(ttype_per)
 percentage_temp_str = str(percentage)
