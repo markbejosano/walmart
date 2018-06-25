@@ -127,7 +127,8 @@ if __name__ == "__main__":
     print "TEST CASES: ", testcases
     if exec_counter == testcases:
         getcontext().prec = 3
-        
+        print "OVERALL PASSED", overall_passed
+        print "TEST CASES", testcases
         #new added code ----------
         if overall_passed<=0 and testcases<=0:
             overall_passed = 0
