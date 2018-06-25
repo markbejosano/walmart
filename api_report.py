@@ -125,8 +125,12 @@ for gettime in opentime:
 		starttime = gettime[12:].strip()
 	if "Call flow Percentage" in gettime:
 		cflow_per = gettime[22:].replace('%','').strip()
+	else:
+		cflow_per = 0
 	if "TransferType Percentage" in gettime:
 		ttype_per = gettime[25:].replace('%','').strip()
+	else:
+		ttype_per = 0
 
 #new code for computation (normal average)
 check_len_cflow = len(cflow_per)
