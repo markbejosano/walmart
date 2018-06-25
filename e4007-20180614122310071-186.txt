@@ -1,0 +1,643 @@
+HVP-6.0-SP2p41.1-2199-39494
+Interactive Services
+AdministrationReportsConfigurationuser: rcronqui@west.com Logout
+Customer Usage
+Call
+Call ID:	e4007-20180614122310071-186
+Application Name:	WalmartRefillReminderDev
+Application Description:	WalmartRefillReminderDev
+CLID:	9990004328175470038
+DNIS:	7513123015
+Call Date:	Thursday, June 14th 2018
+Call Utterance:	not available
+Event Search
+Event ID:	  
+Parameter:	
+ 
+Events
+Time	ID	Param ID	Utterance
+12:23:10	call start	ANI=9990004328175470038|DNIS=7513123015|VURL=http://10.27.120.20:80/vxml/docs/47762814600.vdoc|outbound=Y	-
+12:23:10	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+12:23:10	note	message=enable full call recording|callrecording=/var/data/holly/data/call/2018/0614/1223/e4007-20180614122310071-186/call.wav	-
+12:23:10	fetch	uri=http://10.27.120.20:80/vxml/docs/47762814600.vdoc|fetchtype=vxml|mimetype=text/plain|incache=false|latency=0.004|documentsize=6875|outcome=success|failover=false|localport=41470|hostname=10.27.120.20|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=49|bytesread=7225|byteswritten=188|cachedecision=nc(no-cache)|method=GET	-
+12:23:10	document dump	URL=http://10.27.120.20:80/vxml/docs/47762814600.vdoc|fetchtype=vxml|mimetype=text/plain	-
+12:23:10	fetch	uri=http://10.27.122.135:5959/vxml/appHolly.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.005|documentsize=4221|outcome=success|failover=false|localport=39416|hostname=10.27.122.135|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=4504|byteswritten=240|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:10	document dump	URL=http://10.27.122.135:5959/vxml/appHolly.vxml|fetchtype=vxml|mimetype=application/voicexml+xml	-
+12:23:10	placecall start	remote=sip:9990004328175470038@10.27.219.50:5060;req=47762814600-1;APN=7513123015|local=7513123015<sip:8888888888@10.27.219.50:5060>|application=7513123015	-
+12:23:12	placecall end	result=success	-
+12:23:12	sip session	callid=233eb07f-9f6a-434b-88bf-976bff2152f4@10.27.128.108|remote-rtp=10.27.219.10:22610|local-rtp=10.27.128.108:12976|originator=LOCAL	-
+12:23:12	asr session	asrengine=dtmf|sessionid=dtmf:linux6424:wichllyp:761|setuptime=0.000	-
+12:23:12	log	label=messageid|expr=9B7A7DB7DA654FD096CD6A1F0A703550	-
+12:23:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=11313|outcome=success|failover=false|localport=35544|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=11672|byteswritten=1173|cachedecision=n/a|method=POST	-
+12:23:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/index.php|fetchtype=vxml|mimetype=text/html	-
+12:23:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=16845|outcome=success|failover=false|localport=35546|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17146|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:12	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+12:23:12	log	content=PRE Sonus ANI: 9990004328175470038	-
+12:23:12	log	content=POST Sonus ANI: 8175470038	-
+12:23:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.009|documentsize=2945|outcome=success|failover=false|localport=35548|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=3220|byteswritten=2105|cachedecision=n/a|method=POST	-
+12:23:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/index.php|fetchtype=vxml|mimetype=text/html	-
+12:23:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17336|outcome=success|failover=false|localport=35550|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17637|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:12	log	content=FRAMEWORK FILENAME: /wic/wic/wic/wicstd/framework/v.holly.12.20180614	-
+12:23:12	log	content=FRAMEWORK LOGDATA: 1528993390,4007,186,20180614,122310,7513123015,8175470038,walmart,refillreminder,20,Holly,4007,e4007-20180614122310071-186,linux2441,9990004328175470038	-
+12:23:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/start.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.079|documentsize=13763|outcome=success|failover=false|localport=35552|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=14065|byteswritten=1227|cachedecision=n/a|method=POST	-
+12:23:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/start.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17339|outcome=success|failover=false|localport=35554|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17640|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:12	log	content= currentTime=16:23:11 currentTime=11:23:11	-
+12:23:12	log	content= Drugs 0 are = Atenolol	-
+12:23:12	log	content=AppVersion = 1.0.0	-
+12:23:12	log	content=AppVersionDate = 10/03/2017	-
+12:23:12	log	content=AppName = refillreminder	-
+12:23:12	log	content=ServerAlias = informixdb26	-
+12:23:12	log	content=Database = campmgr2	-
+12:23:12	log	content=PrimaryServer = ibm90	-
+12:23:12	log	content=PrimaryServerMTL = ibm90_spy	-
+12:23:12	log	content=PrimaryRealFeed = ibm91_spy	-
+12:23:12	log	content=SecondaryServer = ibm90	-
+12:23:12	log	content=SecondaryServerMTL = ibm90_spy	-
+12:23:12	log	content=SecondaryRealFeed = ibm91_spy	-
+12:23:12	log	content=WSSIPrimaryServer = wssi_mtl_Dev	-
+12:23:12	log	content=AudioPath = http://promptstore/voice/walmart/refillreminder/en-us/	-
+12:23:12	log	content=EnglishAudioPath = http://promptstore/voice/walmart/refillreminder/en-us/	-
+12:23:12	log	content=SpanishAudioPath = http://promptstore/voice/walmart/refillreminder/es-us/	-
+12:23:12	log	content=DTMFCommonGrammarPath = http://grammarstore/grammar/dtmf/common/	-
+12:23:12	log	content=DTMFGrammarPath = http://grammarstore/grammar/dtmf/menu/	-
+12:23:12	log	content=DTMFGrammar = dtmf_menu_	-
+12:23:12	log	content=WicStdLogFrequency = HOURLY	-
+12:23:12	log	content=WicStdLogType = APP	-
+12:23:12	log	content=ErrorLogLoc = /wic/wic/walmart/refillreminder/error/	-
+12:23:12	log	content=ErrorLogName = v.error.20180614	-
+12:23:12	log	content=LogErrorHeader = DEV,walmart,refillreminder	-
+12:23:12	log	content=EnglishLanguage = english	-
+12:23:12	log	content=EnglishAcousticModel = en-us	-
+12:23:12	log	content=EnglishAudioTalent = stacey	-
+12:23:12	log	content=EnglishTtsTalent = Jill	-
+12:23:12	log	content=SpanishLanguage = spanish	-
+12:23:12	log	content=SpanishAcousticModel = es-us	-
+12:23:12	log	content=SpanishAudioTalent = annamaria	-
+12:23:12	log	content=SpanishTtsTalent = Paulina	-
+12:23:12	log	content=EnglishDynocatAudioPath = http://promptstore/voice/wicstd//dynocat/	-
+12:23:12	log	content=SpanishDynocatAudioPath = http://promptstore/voice/wicstd/annamaria/dynocat/	-
+12:23:12	log	content=APN = 7513123015	-
+12:23:12	log	content=DNIS = 3123015	-
+12:23:12	log	content=ANI = 8175470038	-
+12:23:12	log	content=CustomMDY = 06142018	-
+12:23:13	log	content=CustomTime = 122310	-
+12:23:13	log	content=LeaveMessage = true	-
+12:23:13	log	content=RandomDigit =	-
+12:23:13	log	content=PrefKey =	-
+12:23:13	log	content=Priority =	-
+12:23:13	log	content=Version =	-
+12:23:13	log	content=Format = 01	-
+12:23:13	log	content=Function = 38	-
+12:23:13	log	content=Program = 01	-
+12:23:13	log	content=Application = 24	-
+12:23:13	log	content=Campaign = 2	-
+12:23:13	log	content=StoreNumber = 5529	-
+12:23:13	log	content=StoreAddress = 11808 Miracle Hills	-
+12:23:13	log	content=StoreCity =	-
+12:23:13	log	content=StoreState =	-
+12:23:13	log	content=StoreCountry =	-
+12:23:13	log	content=StoreZipCode =	-
+12:23:13	log	content=StoreOpen = 08:00, 08:00, 08:00, 08:00, 07:00, 06:00, 05:00	-
+12:23:13	log	content=StoreClose = 20:00, 20:00, 20:00, 19:00, 18:00, 17:00, 17:00	-
+12:23:13	log	content=WaitingInStore =	-
+12:23:13	log	content=PharmacyPhone = 8888888888	-
+12:23:13	log	content=RecipientId = 2921356	-
+12:23:13	log	content=RecipientPhoneNumber = 8175470038	-
+12:23:13	log	content=Language = english	-
+12:23:13	log	content=DateOfBirth = 06/07/2005	-
+12:23:13	log	content=FirstName = Kevin	-
+12:23:13	log	content=LastName =	-
+12:23:13	log	content=RxCount = 1	-
+12:23:13	log	content=MessageId =	-
+12:23:13	log	content=TotalPrice = $6	-
+12:23:13	log	content=RxNumber_0 = 6635643	-
+12:23:13	log	content=RxPrice_0 =	-
+12:23:13	log	content=RxDrug_0 = Atenolol	-
+12:23:13	log	content=RxGPI_0 = 123455	-
+12:23:13	log	content=RxPickupDateTime_0 =	-
+12:23:13	log	content=RxNumber_1 =	-
+12:23:13	log	content=RxPrice_1 =	-
+12:23:13	log	content=RxDrug_1 =	-
+12:23:13	log	content=RxGPI_1 =	-
+12:23:13	log	content=RxPickupDateTime_1 =	-
+12:23:13	log	content=RxNumber_2 =	-
+12:23:13	log	content=RxPrice_2 =	-
+12:23:13	log	content=RxDrug_2 =	-
+12:23:13	log	content=RxGPI_2 =	-
+12:23:13	log	content=RxPickupDateTime_2 =	-
+12:23:13	log	content=RxNumber_3 =	-
+12:23:13	log	content=RxPrice_3 =	-
+12:23:13	log	content=RxDrug_3 =	-
+12:23:13	log	content=RxGPI_3 =	-
+12:23:13	log	content=RxPickupDateTime_3 =	-
+12:23:13	log	content=RxNumber_4 =	-
+12:23:13	log	content=RxPrice_4 =	-
+12:23:13	log	content=RxDrug_4 =	-
+12:23:13	log	content=RxGPI_4 =	-
+12:23:13	log	content=RxPickupDateTime_4 =	-
+12:23:13	log	content=RxNumber_5 =	-
+12:23:13	log	content=RxPrice_5 =	-
+12:23:13	log	content=RxDrug_5 =	-
+12:23:13	log	content=RxGPI_5 =	-
+12:23:13	log	content=RxPickupDateTime_5 =	-
+12:23:13	log	content=RxNumber_6 =	-
+12:23:13	log	content=RxPrice_6 =	-
+12:23:13	log	content=RxDrug_6 =	-
+12:23:13	log	content=RxGPI_6 =	-
+12:23:13	log	content=RxPickupDateTime_6 =	-
+12:23:13	log	content=RxNumber_7 =	-
+12:23:13	log	content=RxPrice_7 =	-
+12:23:13	log	content=RxDrug_7 =	-
+12:23:13	log	content=RxGPI_7 =	-
+12:23:13	log	content=RxPickupDateTime_7 =	-
+12:23:13	log	content=RxNumber_8 =	-
+12:23:13	log	content=RxPrice_8 =	-
+12:23:13	log	content=RxDrug_8 =	-
+12:23:13	log	content=RxGPI_8 =	-
+12:23:13	log	content=RxPickupDateTime_8 =	-
+12:23:13	log	content=PatientLanguage = 101	-
+12:23:13	log	content=CombinedState =	-
+12:23:13	log	content=DrugIndex = 0	-
+12:23:13	log	content=OptInDate =	-
+12:23:13	log	content=OrderDateTime =	-
+12:23:13	log	content=ShipmentId =	-
+12:23:13	log	content=ShipmentDate =	-
+12:23:13	log	content=TransferNumber =	-
+12:23:13	log	content=WestTZ = -5	-
+12:23:13	log	content=WorkOrderId = 91121530038	-
+12:23:13	log	content=RefillArray = Array	-
+12:23:13	log	content=ExitPage =	-
+12:23:13	log	content=WorkOrderType =	-
+12:23:13	log	content=WorkOrderPriority = 4	-
+12:23:13	log	content=RefillNone = true	-
+12:23:13	log	content=RefillHasBeenCompleted = no	-
+12:23:13	log	content=todayCompleted = 0	-
+12:23:13	log	content=AudioTalent = stacey	-
+12:23:13	log	content=TtsTalent = Jill	-
+12:23:13	log	content=DynocatAudioPath = http://promptstore/voice/wicstd//dynocat/	-
+12:23:13	log	content=GrammarPath =	-
+12:23:13	log	content=AcousticModel = en-us	-
+12:23:13	log	content=VoiceGrammar =	-
+12:23:13	log	content=CurrentTime = 11:23:11	-
+12:23:13	log	content=DrugArray = Array	-
+12:23:13	log	content=NoDrugNames = false	-
+12:23:13	log	content=GPIArray = Array	-
+12:23:13	log	content=DrugNumberArray = Array	-
+12:23:13	log	content=StoreCloseTime = 20:00	-
+12:23:13	log	content=isHoliday = false	-
+12:23:13	log	content=NextDayIndex = 1	-
+12:23:13	log	content=NextDate = 0615	-
+12:23:13	log	content=AgeInYears = 13	-
+12:23:13	log	content=isMinor = true	-
+12:23:13	log	expr=start,Doing AMD	-
+12:23:13	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/amd.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.007|documentsize=2934|outcome=success|failover=false|localport=35556|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=74|bytesread=3209|byteswritten=315|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:13	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/amd.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:13	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17339|outcome=success|failover=false|localport=35558|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17640|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:13	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:13	fetch	uri=http://vxmlapps/vxml/amd/subdialog.php?v=1.8|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.004|documentsize=17206|outcome=success|failover=false|localport=35242|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=17457|byteswritten=186|cachedecision=nc(no expiration)|method=GET	-
+12:23:13	document dump	URL=http://vxmlapps/vxml/amd/subdialog.php?v=1.8|fetchtype=vxml|mimetype=application/voicexml+xml	-
+12:23:13	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+12:23:13	asr session	asrengine=soundecision|sessionid=3c12e8166fef11e8|address=127.0.0.1:8554|server=-|setuptime=0.002|endpoint=127.0.0.1:5356	-
+12:23:13	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=35246|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=294|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:13	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=35248|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=294|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:13	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=35250|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=294|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:13	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=35252|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=294|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:13	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=35254|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=294|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:13	log	content=SounDecision: configured DTMF to be indication of human answer	-
+12:23:13	log	content=SounDecision: dialed number type set to [res]	-
+12:23:13	log	content=dnis: 7513123015	-
+12:23:13	log	content=dnum: 9990004328175470038	-
+12:23:13	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=35256|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=294|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:13	prompt	type=external|URI=audio/silence250ms.au|outcome=success	-
+12:23:13	recognition start	inputmodes=dtmf,voice|threshold=50|timeout=2.750|bargeintype=speech|completetimeout=1.700|incompletetimeout=1.700|interdigittimeout=2.000|termtimeout=0.000|termchar='	-
+12:23:16	recognition end	result=no input|inputmode=unknown	-
+12:23:16	vxml_event	event=noinput	-
+12:23:16	log	content=SounDecision: initial - noinput (3027ms = HUMAN)	-
+12:23:16	log	content=SounDecision: restart count currently 0	-
+12:23:16	log	content=*********Machine Detection variables*********	-
+12:23:16	log	content=Human Answered - true	-
+12:23:16	log	expr=start,exit,dialogs/say_Greet.vxml.php	-
+12:23:16	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_Greet.vxml.php?amd.amd_disconnect_state=&amd.amd_dtmf=&amd.amd_duration=3027&amd.amd_noinput=true&amd.amd_result=human|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.054|documentsize=32326|outcome=success|failover=false|localport=35604|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=192|bytesread=32644|byteswritten=433|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:16	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_Greet.vxml.php?amd.amd_disconnect_state=&amd.amd_dtmf=&amd.amd_duration=3027&amd.amd_noinput=true&amd.amd_result=human|fetchtype=vxml|mimetype=text/html	-
+12:23:16	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17339|outcome=success|failover=false|localport=35606|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17640|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:16	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:16	asr session	asrengine=dtmf|sessionid=dtmf:linux6424:wichllyp:761|setuptime=0.000	-
+12:23:16	log	expr=say_Greet,enter	-
+12:23:16	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:23:16	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:23:16	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:23:16	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:16	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:16	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=35608|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:23:16	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:16	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/Greet.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=61166|outcome=success|failover=false|localport=53810|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=63|bytesread=61403|byteswritten=233|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:16	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/Greet.wav|outcome=success	-
+12:23:16	system response	latency=0.128	-
+12:23:23	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:23:23	recognition end	result=no input|inputmode=unknown	-
+12:23:23	vxml_event	event=noinput	-
+12:23:23	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:23	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=35644|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=756|cachedecision=n/a|method=POST	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1539|outcome=success|failover=false|localport=35646|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1813|byteswritten=702|cachedecision=n/a|method=POST	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=35648|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=750|cachedecision=n/a|method=POST	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.007|documentsize=1430|outcome=success|failover=false|localport=35650|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1704|byteswritten=666|cachedecision=n/a|method=POST	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:24	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+12:23:24	log	expr=WicStdPromptAndCollect END	-
+12:23:24	log	expr=say_Greet,exit,database/db_GetDrugNames.vxml.php	-
+12:23:24	log	expr=F2 F2	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/database/db_GetDrugNames.vxml.php?formField=|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.038|documentsize=1156|outcome=success|failover=false|localport=35652|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=106|bytesread=1431|byteswritten=347|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/database/db_GetDrugNames.vxml.php?formField=|fetchtype=vxml|mimetype=text/html	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.057|documentsize=17339|outcome=success|failover=false|localport=35654|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17640|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:24	log	expr=db_GetDrugNames,enter	-
+12:23:24	log	expr=db_GetDrugNames,exit,database/prompts/prompt_RPC.vxml.php	-
+12:23:24	log	expr=db_GetDrugNames,exit,prompts/prompt_Minor.vxml.php	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_Minor.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.065|documentsize=63701|outcome=success|failover=false|localport=35656|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=91|bytesread=64051|byteswritten=332|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_Minor.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17339|outcome=success|failover=false|localport=35658|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17640|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:24	log	expr=prompt_Minor,enter	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:23:24	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:24	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=35660|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:23:24	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:24	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/Minor_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=20008|outcome=success|failover=false|localport=53862|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=65|bytesread=20245|byteswritten=235|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:24	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/Minor_1.wav|outcome=success	-
+12:23:24	prompt	type=SSML|content=<prosody rate=".9" volume="100.0"><say-as interpret-as="name">Kevin</say-as></prosody>|language=en-US|outcome=success	-
+12:23:24	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/Minor_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=23582|outcome=success|failover=false|localport=53864|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=65|bytesread=23819|byteswritten=235|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:24	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/Minor_2.wav|outcome=success	-
+12:23:24	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_12.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=289|outcome=success|failover=false|hostname=grammarstore|urilength=56|cachedecision=in(Last Modified)	-
+12:23:24	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_12.grxml|fetchtype=grammar|mimetype=text/plain	-
+12:23:24	system response	latency=0.306	-
+12:23:24	recognition start	inputmodes=dtmf|threshold=20|timeout=3.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:23:27	recognition end	result=success|inputmode=dtmf|utterance=1|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=Y	-
+12:23:27	log	expr=WicStdFormValue = 1	-
+12:23:27	log	expr=WicStdFormConfidence = 100	-
+12:23:27	log	expr=WicStdFormUtterance = 1	-
+12:23:27	log	expr=WicStdFormInputMode = dtmf	-
+12:23:27	log	expr=WicStdCompleteNBestStr = 1^^^1^^^1^^^dtmf	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1555|outcome=success|failover=false|localport=35716|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1829|byteswritten=714|cachedecision=n/a|method=POST	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=35718|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=762|cachedecision=n/a|method=POST	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1548|outcome=success|failover=false|localport=35720|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1822|byteswritten=707|cachedecision=n/a|method=POST	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:27	log	expr=Summary : OK,1,0,0,dtmf,100,undefined	-
+12:23:27	log	expr=WicStdPromptAndCollect END	-
+12:23:27	log	content=*********** PnC VARIABLES *****************	-
+12:23:27	log	content=WicStdResult is: OK	-
+12:23:27	log	content=WicStdFormValue is: 1	-
+12:23:27	log	content=WicStdFormNomatchCount is: 0	-
+12:23:27	log	content=WicStdFormNoinputCount is: 0	-
+12:23:27	log	content=WicStdFormInputMode is: dtmf	-
+12:23:27	log	content=WicStdError is: undefined	-
+12:23:27	log	content=WicStdFormFailCount is: 0	-
+12:23:27	log	expr=prompt_Minor,to say_AuthRefillMulti	-
+12:23:27	log	expr=prompt_Minor,exit,dialogs/say_AuthRefillSingleNameAvail.vxml.php	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_AuthRefillSingleNameAvail.vxml.php?formField=1|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.058|documentsize=33145|outcome=success|failover=false|localport=35722|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=120|bytesread=33463|byteswritten=361|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_AuthRefillSingleNameAvail.vxml.php?formField=1|fetchtype=vxml|mimetype=text/html	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17339|outcome=success|failover=false|localport=35724|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17640|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:27	log	expr=say_AuthRefillSingleNameAvail,enter	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:23:27	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:27	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=35726|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:23:27	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:27	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingleNameAvail_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=3970|outcome=success|failover=false|localport=53928|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=4205|byteswritten=255|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:27	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingleNameAvail_1.wav|outcome=success	-
+12:23:27	prompt	type=SSML|content=<prosody rate=".9" volume="100.0"><say-as interpret-as="name">Kevin</say-as></prosody>|language=en-US|outcome=success	-
+12:23:27	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingleNameAvail_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=39844|outcome=success|failover=false|localport=53930|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=40081|byteswritten=255|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:27	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingleNameAvail_2.wav|outcome=success	-
+12:23:27	fetch	uri=http://promptstore/voice/wicstd/stacey/dynocat/fa.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4890|outcome=success|failover=false|localport=53932|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=5126|byteswritten=223|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:27	prompt	type=external|URI=http://promptstore/voice/wicstd/stacey/dynocat/fa.wav|outcome=success	-
+12:23:27	fetch	uri=http://promptstore/voice/wicstd/stacey/dynocat/ft.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=6062|outcome=success|failover=false|localport=53934|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=6298|byteswritten=223|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:27	prompt	type=external|URI=http://promptstore/voice/wicstd/stacey/dynocat/ft.wav|outcome=success	-
+12:23:27	fetch	uri=http://promptstore/voice/wicstd/stacey/dynocat/se.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=8978|outcome=success|failover=false|localport=53936|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=9214|byteswritten=223|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:27	prompt	type=external|URI=http://promptstore/voice/wicstd/stacey/dynocat/se.wav|outcome=success	-
+12:23:27	system response	latency=0.182	-
+12:23:36	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:23:36	recognition end	result=no input|inputmode=unknown	-
+12:23:36	vxml_event	event=noinput	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=35874|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=796|cachedecision=n/a|method=POST	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1559|outcome=success|failover=false|localport=35876|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1833|byteswritten=722|cachedecision=n/a|method=POST	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=35878|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=790|cachedecision=n/a|method=POST	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1448|outcome=success|failover=false|localport=35880|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1722|byteswritten=684|cachedecision=n/a|method=POST	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:36	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+12:23:36	log	expr=WicStdPromptAndCollect END	-
+12:23:36	log	expr=say_AuthRefillSingleNameAvail,exit,prompts/prompt_AuthRefillSingle1.vxml.php	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_AuthRefillSingle1.vxml.php?formField=|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.065|documentsize=65201|outcome=success|failover=false|localport=35882|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=114|bytesread=65551|byteswritten=355|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_AuthRefillSingle1.vxml.php?formField=|fetchtype=vxml|mimetype=text/html	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17339|outcome=success|failover=false|localport=35884|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17640|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:36	log	expr=prompt_AuthRefillSingle1,enter	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:23:36	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:36	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=35886|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:23:36	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:36	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingle1_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=34324|outcome=success|failover=false|localport=54088|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=34561|byteswritten=247|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:36	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingle1_1.wav|outcome=success	-
+12:23:36	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingle1_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=28352|outcome=success|failover=false|localport=54090|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=28589|byteswritten=247|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:36	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/AuthRefillSingle1_2.wav|outcome=success	-
+12:23:36	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_123.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=309|outcome=success|failover=false|hostname=grammarstore|urilength=57|cachedecision=in(Last Modified)	-
+12:23:36	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_123.grxml|fetchtype=grammar|mimetype=text/plain	-
+12:23:36	system response	latency=0.205	-
+12:23:36	recognition start	inputmodes=dtmf|threshold=20|timeout=3.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:23:45	recognition end	result=success|inputmode=dtmf|utterance=1|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=Y	-
+12:23:45	log	expr=WicStdFormValue = 1	-
+12:23:45	log	expr=WicStdFormConfidence = 100	-
+12:23:45	log	expr=WicStdFormUtterance = 1	-
+12:23:45	log	expr=WicStdFormInputMode = dtmf	-
+12:23:45	log	expr=WicStdCompleteNBestStr = 1^^^1^^^1^^^dtmf	-
+12:23:45	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1568|outcome=success|failover=false|localport=36096|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1842|byteswritten=727|cachedecision=n/a|method=POST	-
+12:23:45	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:45	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:45	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:45	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.029|documentsize=87|outcome=success|failover=false|localport=36098|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=787|cachedecision=n/a|method=POST	-
+12:23:45	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:45	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.007|documentsize=1561|outcome=success|failover=false|localport=36100|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1835|byteswritten=720|cachedecision=n/a|method=POST	-
+12:23:45	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:45	log	expr=Summary : OK,1,0,0,dtmf,100,undefined	-
+12:23:45	log	expr=WicStdPromptAndCollect END	-
+12:23:45	log	content=*********** PnC VARIABLES *****************	-
+12:23:45	log	content=WicStdResult is: OK	-
+12:23:45	log	content=WicStdFormValue is: 1	-
+12:23:45	log	content=WicStdFormNomatchCount is: 0	-
+12:23:45	log	content=WicStdFormNoinputCount is: 0	-
+12:23:45	log	content=WicStdFormInputMode is: dtmf	-
+12:23:45	log	content=WicStdError is: undefined	-
+12:23:45	log	content=WicStdFormFailCount is: 0	-
+12:23:45	log	expr=prompt_AuthRefillSingle1,to say_Refill2NameAvail	-
+12:23:45	log	expr=prompt_AuthRefillSingle1,exit,api/api_CreateRefill.vxml.php	-
+12:23:47	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/api/api_CreateRefill.vxml.php?ExitPage=dialogs%2Fsay_RefillConfSingleNameAvail.vxml.php&WorkOrderPriority=4&WorkOrderType=all|fetchtype=vxml|mimetype=text/html|incache=false|latency=1.960|documentsize=2758|outcome=success|failover=false|localport=36108|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=187|bytesread=3033|byteswritten=428|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:47	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/api/api_CreateRefill.vxml.php?ExitPage=dialogs%2Fsay_RefillConfSingleNameAvail.vxml.php&WorkOrderPriority=4&WorkOrderType=all|fetchtype=vxml|mimetype=text/html	-
+12:23:47	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17341|outcome=success|failover=false|localport=36140|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17642|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:47	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:47	log	expr=api_CreateRefill,enter	-
+12:23:47	log	content=API all === true	-
+12:23:47	log	content=API adding drug 6635643	-
+12:23:47	log	content=API store number 5529	-
+12:23:47	log	content=API priority code 4	-
+12:23:47	log	content=API workorderid code 91121530038	-
+12:23:47	log	content=API workordertype code all	-
+12:23:47	log	content=API curr seq code 1	-
+12:23:47	log	content=API seq max code 1	-
+12:23:47	log	content=API Session WorkOrderSeq seq code 0	-
+12:23:47	log	content=API Session seq max code 1	-
+12:23:47	log	content=API phone number code 8175470038	-
+12:23:47	log	content=API id code 2921356	-
+12:23:47	log	content=API dob code 06/07/2005	-
+12:23:47	log	content=API rx number code 6635643	-
+12:23:47	log	content=API RefillNone false	-
+12:23:47	log	content=API Entering Exit Page = dialogs/say_RefillConfSingleNameAvail.vxml.php	-
+12:23:47	log	content=API status code 2000	-
+12:23:47	log	content=API status desc Request completed successfully.	-
+12:23:47	log	content=API original request {"requestType":"msgRefillOrder","consumer":"1","version":"2.0","order":{"pickUpStoreNum":"5529","priority":"4","workOrderId":"91121530038","workOrderType":"all","workOrderSeqCurrent":"1","workOrderSeqMax":"1","patient":{"phoneNumber":"8175470038","customerId":"2921356","dateOfBirth":"06\/07\/2005","rxNbrs":["6635643"]}}}	-
+12:23:47	log	content=API WestRecordId 91121530	-
+12:23:47	log	content=API Call Ref Id e4007-20180614122310071-186	-
+12:23:47	log	content=API RxDetails 0	-
+12:23:47	log	content=API Rx0 1	-
+12:23:47	log	content=API Rx1 0	-
+12:23:47	log	content=API Rx2 0	-
+12:23:47	log	content=API Rx3 0	-
+12:23:47	log	content=API Rx4 0	-
+12:23:47	log	content=API Rx5 0	-
+12:23:47	log	content=API Rx6 0	-
+12:23:47	log	content=API Rx7 0	-
+12:23:47	log	content=API Rx8 0	-
+12:23:47	log	content=API active 0	-
+12:23:47	log	content=API apiresult 2000	-
+12:23:47	log	content=API reminder 0	-
+12:23:47	log	content=API RefillHasBeenCompleted true	-
+12:23:47	log	content=API todayCompleted 0	-
+12:23:47	log	content=API Leaving Exit Page = dialogs/say_RefillConfSingleNameAvail.vxml.php	-
+12:23:47	log	expr=api_CreateRefill,exit,dialogs/say_RefillConfSingleNameAvail.vxml.php	-
+12:23:47	log	expr=api_CreateRefill,exit,dialogs/say_RefillConfSingleNameAvail.vxml.php	-
+12:23:47	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_RefillConfSingleNameAvail.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.060|documentsize=33644|outcome=success|failover=false|localport=36142|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=108|bytesread=33969|byteswritten=349|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:47	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_RefillConfSingleNameAvail.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:47	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17341|outcome=success|failover=false|localport=36144|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17642|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:47	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:47	log	expr=say_RefillConfSingleNameAvail,enter	-
+12:23:47	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:23:47	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:23:47	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:23:47	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:47	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:47	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=36146|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:23:47	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:47	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/RefillConfSingleNameAvail_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=19470|outcome=success|failover=false|localport=54348|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=19707|byteswritten=255|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:47	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/RefillConfSingleNameAvail_1.wav|outcome=success	-
+12:23:47	fetch	uri=http://promptstore/voice/wicstd/stacey/dynocat/fa.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=4890|outcome=success|failover=false|localport=54350|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=5126|byteswritten=223|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:47	prompt	type=external|URI=http://promptstore/voice/wicstd/stacey/dynocat/fa.wav|outcome=success	-
+12:23:47	fetch	uri=http://promptstore/voice/wicstd/stacey/dynocat/ft.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=6062|outcome=success|failover=false|localport=54352|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=6298|byteswritten=223|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:47	prompt	type=external|URI=http://promptstore/voice/wicstd/stacey/dynocat/ft.wav|outcome=success	-
+12:23:47	fetch	uri=http://promptstore/voice/wicstd/stacey/dynocat/se.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.002|documentsize=8978|outcome=success|failover=false|localport=54354|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=53|bytesread=9214|byteswritten=223|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:47	prompt	type=external|URI=http://promptstore/voice/wicstd/stacey/dynocat/se.wav|outcome=success	-
+12:23:47	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/RefillConfSingleNameAvail_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=24214|outcome=success|failover=false|localport=54356|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=24451|byteswritten=255|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:47	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/RefillConfSingleNameAvail_2.wav|outcome=success	-
+12:23:47	prompt	type=SSML|content=<prosody rate=".9" volume="100.0"><say-as interpret-as="address">11808 Miracle Hills</say-as></prosody>|language=en-US|outcome=success	-
+12:23:47	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/RefillConfSingleNameAvail_3.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=13912|outcome=success|failover=false|localport=54358|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=85|bytesread=14149|byteswritten=255|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:47	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/RefillConfSingleNameAvail_3.wav|outcome=success	-
+12:23:47	system response	latency=2.198	-
+12:23:59	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:23:59	recognition end	result=no input|inputmode=unknown	-
+12:23:59	vxml_event	event=noinput	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=36332|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=796|cachedecision=n/a|method=POST	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1559|outcome=success|failover=false|localport=36334|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1833|byteswritten=722|cachedecision=n/a|method=POST	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=36336|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=790|cachedecision=n/a|method=POST	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1450|outcome=success|failover=false|localport=36338|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1724|byteswritten=686|cachedecision=n/a|method=POST	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:59	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+12:23:59	log	expr=WicStdPromptAndCollect END	-
+12:23:59	log	expr=say_RefillConfSingleNameAvail,exit,prompts/prompt_OptOut.vxml.php	-
+12:23:59	log	content=store close Time = 20:00	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_RefillAllToday.vxml.php?formField=|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.074|documentsize=60947|outcome=success|failover=false|localport=36340|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=111|bytesread=61296|byteswritten=352|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_RefillAllToday.vxml.php?formField=|fetchtype=vxml|mimetype=text/html	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17341|outcome=success|failover=false|localport=36342|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17642|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:23:59	log	expr=prompt_RefillAllToday,enter	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:23:59	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:23:59	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=36344|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:23:59	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:23:59	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/RefillAllToday.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=38636|outcome=success|failover=false|localport=54546|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=38873|byteswritten=242|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:23:59	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/RefillAllToday.wav|outcome=success	-
+12:23:59	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_12.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=289|outcome=success|failover=false|hostname=grammarstore|urilength=56|cachedecision=in(Last Modified)	-
+12:23:59	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_12.grxml|fetchtype=grammar|mimetype=text/plain	-
+12:23:59	system response	latency=0.214	-
+12:23:59	recognition start	inputmodes=dtmf|threshold=20|timeout=3.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:24:06	recognition end	result=success|inputmode=dtmf|utterance=2|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=Y	-
+12:24:06	log	expr=WicStdFormValue = 2	-
+12:24:06	log	expr=WicStdFormConfidence = 100	-
+12:24:06	log	expr=WicStdFormUtterance = 2	-
+12:24:06	log	expr=WicStdFormInputMode = dtmf	-
+12:24:06	log	expr=WicStdCompleteNBestStr = 2^^^1^^^2^^^dtmf	-
+12:24:06	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1564|outcome=success|failover=false|localport=36480|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1838|byteswritten=723|cachedecision=n/a|method=POST	-
+12:24:06	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:06	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:24:06	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:24:06	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=36482|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=780|cachedecision=n/a|method=POST	-
+12:24:06	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:06	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1557|outcome=success|failover=false|localport=36484|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1831|byteswritten=716|cachedecision=n/a|method=POST	-
+12:24:06	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:06	log	expr=Summary : OK,2,0,0,dtmf,100,undefined	-
+12:24:06	log	expr=WicStdPromptAndCollect END	-
+12:24:06	log	content=*********** PnC VARIABLES *****************	-
+12:24:06	log	content=WicStdResult is: OK	-
+12:24:06	log	content=WicStdFormValue is: 2	-
+12:24:06	log	content=WicStdFormNomatchCount is: 0	-
+12:24:06	log	content=WicStdFormNoinputCount is: 0	-
+12:24:06	log	content=WicStdFormInputMode is: dtmf	-
+12:24:06	log	content=WicStdError is: undefined	-
+12:24:06	log	content=WicStdFormFailCount is: 0	-
+12:24:06	log	expr=prompt_RefillAllToday,to say_GoodbyeMulti	-
+12:24:06	log	expr=prompt_RefillAllToday,exit,prompts/prompt_OptOut.vxml.php	-
+12:24:07	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_OptOut.vxml.php?ExitPage=&WorkOrderPriority=&WorkOrderType=&todayCompleted=0|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.062|documentsize=57581|outcome=success|failover=false|localport=36486|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=153|bytesread=57923|byteswritten=394|cachedecision=nc(pragma no-cache)|method=GET	-
+12:24:07	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/prompts/prompt_OptOut.vxml.php?ExitPage=&WorkOrderPriority=&WorkOrderType=&todayCompleted=0|fetchtype=vxml|mimetype=text/html	-
+12:24:07	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17341|outcome=success|failover=false|localport=36488|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17642|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:24:07	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:24:07	log	expr=prompt_OptOut,enter	-
+12:24:07	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:24:07	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:24:07	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:24:07	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:24:07	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:24:07	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=36490|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:24:07	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:07	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/OptOut.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=22454|outcome=success|failover=false|localport=54692|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=64|bytesread=22691|byteswritten=234|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:24:07	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/OptOut.wav|outcome=success	-
+12:24:07	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=269|outcome=success|failover=false|hostname=grammarstore|urilength=55|cachedecision=in(Last Modified)	-
+12:24:07	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain	-
+12:24:07	system response	latency=0.191	-
+12:24:07	recognition start	inputmodes=dtmf|threshold=20|timeout=2.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:24:11	recognition end	result=success|inputmode=dtmf|utterance=7|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=Y	-
+12:24:11	log	expr=WicStdFormValue = 7	-
+12:24:11	log	expr=WicStdFormConfidence = 100	-
+12:24:11	log	expr=WicStdFormUtterance = 7	-
+12:24:11	log	expr=WicStdFormInputMode = dtmf	-
+12:24:11	log	expr=WicStdCompleteNBestStr = 7^^^1^^^7^^^dtmf	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1555|outcome=success|failover=false|localport=36590|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1829|byteswritten=714|cachedecision=n/a|method=POST	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=36594|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=763|cachedecision=n/a|method=POST	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.009|documentsize=1548|outcome=success|failover=false|localport=36596|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1822|byteswritten=707|cachedecision=n/a|method=POST	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:11	log	expr=Summary : OK,7,0,0,dtmf,100,undefined	-
+12:24:11	log	expr=WicStdPromptAndCollect END	-
+12:24:11	log	content=*********** PnC VARIABLES *****************	-
+12:24:11	log	content=WicStdResult is: OK	-
+12:24:11	log	content=WicStdFormValue is: 7	-
+12:24:11	log	content=WicStdFormNomatchCount is: 0	-
+12:24:11	log	content=WicStdFormNoinputCount is: 0	-
+12:24:11	log	content=WicStdFormInputMode is: dtmf	-
+12:24:11	log	content=WicStdError is: undefined	-
+12:24:11	log	content=WicStdFormFailCount is: 0	-
+12:24:11	log	expr=prompt_OptOut,exit,api/api_OptOut.vxml.php	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/api/api_OptOut.vxml.php?formField=7|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.077|documentsize=1207|outcome=success|failover=false|localport=36598|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=1482|byteswritten=338|cachedecision=nc(pragma no-cache)|method=GET	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/api/api_OptOut.vxml.php?formField=7|fetchtype=vxml|mimetype=text/html	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17341|outcome=success|failover=false|localport=36600|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17642|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:24:11	log	expr=api_OptOut,enter	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.003|documentsize=63|outcome=success|failover=false|localport=36602|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=63|bytesread=198|byteswritten=595|cachedecision=n/a|method=POST	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:11	log	expr=api_OptOut,exit,dialogs/say_Opt-Out-Option.vxml.php	-
+12:24:11	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.002|documentsize=63|outcome=success|failover=false|localport=36604|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=63|bytesread=198|byteswritten=595|cachedecision=n/a|method=POST	-
+12:24:11	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/logger.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_Opt-Out-Option.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.056|documentsize=32130|outcome=success|failover=false|localport=36606|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=97|bytesread=32448|byteswritten=338|cachedecision=nc(pragma no-cache)|method=GET	-
+12:24:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/dialogs/say_Opt-Out-Option.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:24:12	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17341|outcome=success|failover=false|localport=36608|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17642|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:24:12	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:24:12	log	expr=say_Opt-Out-Option,enter	-
+12:24:12	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+12:24:12	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+12:24:12	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+12:24:12	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:24:12	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:24:12	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=36610|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+12:24:12	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:12	fetch	uri=http://promptstore/voice/walmart/refillreminder/en-us/Opt-Out-Option.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=58324|outcome=success|failover=false|localport=54812|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=72|bytesread=58561|byteswritten=242|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+12:24:12	prompt	type=external|URI=http://promptstore/voice/walmart/refillreminder/en-us/Opt-Out-Option.wav|outcome=success	-
+12:24:12	system response	latency=0.280	-
+12:24:19	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+12:24:19	recognition end	result=no input|inputmode=unknown	-
+12:24:19	vxml_event	event=noinput	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=36746|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=774|cachedecision=n/a|method=POST	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.007|documentsize=1547|outcome=success|failover=false|localport=36748|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1821|byteswritten=710|cachedecision=n/a|method=POST	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.016|documentsize=87|outcome=success|failover=false|localport=36752|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=768|cachedecision=n/a|method=POST	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.009|documentsize=1439|outcome=success|failover=false|localport=36756|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1713|byteswritten=675|cachedecision=n/a|method=POST	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:19	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+12:24:19	log	expr=WicStdPromptAndCollect END	-
+12:24:19	disconnect		-
+12:24:19	vxml_event	event=connection.disconnect.hangup|message=application disconnect	-
+12:24:19	log	content=**********Disconnecting call Hangup*********	-
+12:24:19	log	content= Event: connection.disconnect.hangup Message: application disconnect	-
+12:24:19	log	content=No api hits in call	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/end.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.011|documentsize=6406|outcome=success|failover=false|localport=36760|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=74|bytesread=6681|byteswritten=395|cachedecision=n/a|method=POST	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/end.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17341|outcome=success|failover=false|localport=36764|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=17642|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/vxml/walmart/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+12:24:19	log	expr=end,enter	-
+12:24:19	log	expr=secDur is 69 seconds	-
+12:24:19	log	expr=msDur is 69650 seconds	-
+12:24:19	log	content=CallDisposition = R1	-
+12:24:19	log	content=END EXIT	-
+12:24:19	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.009|documentsize=1027|outcome=success|failover=false|localport=36770|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1301|byteswritten=551|cachedecision=n/a|method=POST	-
+12:24:19	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+12:24:19	log	content=Disposition - R1	-
+12:24:19	log	content=HumanAnswered - true	-
+12:24:19	vxml_event	event=connection.disconnect.hangup	-
+12:24:19	vxml_event	event=event.mml_dialog_complete	-
+12:24:19	fetch	uri=http://10.27.122.135/vxml/submitresponse.asp|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.050|documentsize=244|outcome=success|failover=false|localport=46530|hostname=10.27.122.135|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=617|byteswritten=723|cachedecision=n/a|method=POST	-
+12:24:19	document dump	URL=http://10.27.122.135/vxml/submitresponse.asp|fetchtype=vxml|mimetype=text/html	-
+12:24:19	exit	result=exit	-
+12:24:19	call end	cpu=0.740|normalcpu=0.740|callduration=69.648|connectedduration=66.936|timetofirstprompt=0.302|reccount=9|ttscount=3|ttsduration=4.500|asrduration=3.133|callrecording=/var/data/holly/data/call/2018/0614/1223/e4007-20180614122310071-186/call.wav|logcount=624|logbytes=78425	-
+ 

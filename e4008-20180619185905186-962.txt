@@ -1,0 +1,612 @@
+HVP-6.0-SP2p41.1-2199-39494
+Interactive Services
+AdministrationReportsConfigurationuser: rcronqui@west.com Logout
+Customer Usage
+Call
+Call ID:	e4008-20180619185905186-962
+Application Name:	SamsRefillReminderDev
+Application Description:	SamsRefillReminderDev
+CLID:	9990004328175470041
+DNIS:	7513123017
+Call Date:	Tuesday, June 19th 2018
+Call Utterance:	not available
+Event Search
+Event ID:	  
+Parameter:	
+ 
+Events
+Time	ID	Param ID	Utterance
+18:59:05	call start	ANI=9990004328175470041|DNIS=7513123017|VURL=http://10.27.120.20:80/vxml/docs/44452542501.vdoc|outbound=Y	-
+18:59:05	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+18:59:05	fetch	uri=http://10.27.120.20:80/vxml/docs/44452542501.vdoc|fetchtype=vxml|mimetype=text/plain|incache=false|latency=0.004|documentsize=6899|outcome=success|failover=false|localport=41518|hostname=10.27.120.20|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=49|bytesread=7249|byteswritten=188|cachedecision=nc(no-cache)|method=GET	-
+18:59:05	document dump	URL=http://10.27.120.20:80/vxml/docs/44452542501.vdoc|fetchtype=vxml|mimetype=text/plain	-
+18:59:05	fetch	uri=http://10.27.122.135:5959/vxml/appHolly.vxml|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.009|documentsize=4221|outcome=success|failover=false|localport=43372|hostname=10.27.122.135|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=4505|byteswritten=240|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:05	document dump	URL=http://10.27.122.135:5959/vxml/appHolly.vxml|fetchtype=vxml|mimetype=application/voicexml+xml	-
+18:59:05	placecall start	remote=sip:9990004328175470041@10.27.219.50:5060;req=44452542501-1;APN=7513123017|local=7513123017<sip:8175470223@10.27.219.50:5060>|application=7513123017	-
+18:59:11	placecall end	result=success	-
+18:59:11	sip session	callid=5ec88d06-1dab-42ed-bc35-192f7de1168b@10.27.128.109|remote-rtp=10.27.219.10:28128|local-rtp=10.27.128.109:14868|originator=LOCAL	-
+18:59:11	asr session	asrengine=dtmf|sessionid=dtmf:linux6425:wichllyp:969|setuptime=0.000	-
+18:59:11	log	label=messageid|expr=5A74EB0E275044A1B17A74ED0D663858	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.009|documentsize=11323|outcome=success|failover=false|localport=57962|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=11682|byteswritten=1194|cachedecision=n/a|method=POST	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/index.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=16880|outcome=success|failover=false|localport=57964|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17181|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+18:59:11	log	content=PRE Sonus ANI: 9990004328175470041	-
+18:59:11	log	content=POST Sonus ANI: 8175470041	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/index.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.009|documentsize=2971|outcome=success|failover=false|localport=57966|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=68|bytesread=3246|byteswritten=2113|cachedecision=n/a|method=POST	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/index.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.014|documentsize=17373|outcome=success|failover=false|localport=57968|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17674|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	log	content=FRAMEWORK FILENAME: /wic/wic/wic/wicstd/framework/v.holly.18.20180619	-
+18:59:11	log	content=FRAMEWORK LOGDATA: 1529449145,4008,962,20180619,185905,7513123017,8175470041,samsclub,refillreminder,20,Holly,4008,e4008-20180619185905186-962,linux2441,9990004328175470041	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/start.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.079|documentsize=13890|outcome=success|failover=false|localport=57970|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=14192|byteswritten=1248|cachedecision=n/a|method=POST	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/start.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17376|outcome=success|failover=false|localport=57972|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17677|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	log	content= currentTime=22:59:09 currentTime=17:59:09	-
+18:59:11	log	content= Drugs 0 are = Atenolol	-
+18:59:11	log	content=AppVersion = 1.0.0	-
+18:59:11	log	content=AppVersionDate = 10/03/2017	-
+18:59:11	log	content=AppName = refillreminder	-
+18:59:11	log	content=ServerAlias = informixdb26	-
+18:59:11	log	content=Database = campmgr2	-
+18:59:11	log	content=PrimaryServer = ibm90	-
+18:59:11	log	content=PrimaryServerMTL = ibm90_spy	-
+18:59:11	log	content=PrimaryRealFeed = ibm91_spy	-
+18:59:11	log	content=SecondaryServer = ibm90	-
+18:59:11	log	content=SecondaryServerMTL = ibm90_spy	-
+18:59:11	log	content=SecondaryRealFeed = ibm91_spy	-
+18:59:11	log	content=WSSIPrimaryServer = wssi_mtl_Dev	-
+18:59:11	log	content=AudioPath = http://promptstore/voice/samsclub/refillreminder/es-us/	-
+18:59:11	log	content=EnglishAudioPath = http://promptstore/voice/samsclub/refillreminder/en-us/	-
+18:59:11	log	content=SpanishAudioPath = http://promptstore/voice/samsclub/refillreminder/es-us/	-
+18:59:11	log	content=DTMFCommonGrammarPath = http://grammarstore/grammar/dtmf/common/	-
+18:59:11	log	content=DTMFGrammarPath = http://grammarstore/grammar/dtmf/menu/	-
+18:59:11	log	content=DTMFGrammar = dtmf_menu_	-
+18:59:11	log	content=WicStdLogFrequency = HOURLY	-
+18:59:11	log	content=WicStdLogType = APP	-
+18:59:11	log	content=ErrorLogLoc = /wic/wic/samsclub/refillreminder/error/	-
+18:59:11	log	content=ErrorLogName = v.error.20180619	-
+18:59:11	log	content=LogErrorHeader = DEV,samsclub,refillreminder	-
+18:59:11	log	content=EnglishLanguage = english	-
+18:59:11	log	content=EnglishAcousticModel = en-us	-
+18:59:11	log	content=EnglishAudioTalent = stacey	-
+18:59:11	log	content=EnglishTtsTalent = Jill	-
+18:59:11	log	content=SpanishLanguage = spanish	-
+18:59:11	log	content=SpanishAcousticModel = es-us	-
+18:59:11	log	content=SpanishAudioTalent = annamaria	-
+18:59:11	log	content=SpanishTtsTalent = Paulina	-
+18:59:11	log	content=EnglishDynocatAudioPath = http://promptstore/voice/wicstd//dynocat/	-
+18:59:11	log	content=SpanishDynocatAudioPath = http://promptstore/voice/wicstd/annamaria/dynocat/	-
+18:59:11	log	content=APN = 7513123017	-
+18:59:11	log	content=DNIS = 3123017	-
+18:59:11	log	content=ANI = 8175470041	-
+18:59:11	log	content=CustomMDY = 06192018	-
+18:59:11	log	content=CustomTime = 185905	-
+18:59:11	log	content=LeaveMessage = true	-
+18:59:11	log	content=RandomDigit =	-
+18:59:11	log	content=PrefKey =	-
+18:59:11	log	content=Priority =	-
+18:59:11	log	content=Version =	-
+18:59:11	log	content=Format = 18	-
+18:59:11	log	content=Function = 38	-
+18:59:11	log	content=Program = 01	-
+18:59:11	log	content=Application = 24	-
+18:59:11	log	content=Campaign = 2	-
+18:59:11	log	content=StoreNumber = 5529	-
+18:59:11	log	content=StoreAddress = 11808 Miracle Hills	-
+18:59:11	log	content=StoreCity =	-
+18:59:11	log	content=StoreState =	-
+18:59:11	log	content=StoreCountry =	-
+18:59:11	log	content=StoreZipCode =	-
+18:59:11	log	content=StoreOpen = 08:00, 08:00, , 08:00, 07:00, 06:00, 05:00	-
+18:59:11	log	content=StoreClose = 19:00, 20:00, , 20:00, 19:00, 18:00, 17:00	-
+18:59:11	log	content=WaitingInStore =	-
+18:59:11	log	content=PharmacyPhone = 8175470223	-
+18:59:11	log	content=RecipientId = 2921356	-
+18:59:11	log	content=RecipientPhoneNumber = 8175470041	-
+18:59:11	log	content=Language = spanish	-
+18:59:11	log	content=DateOfBirth = 06/07/2005	-
+18:59:11	log	content=FirstName = RonnWV	-
+18:59:11	log	content=LastName =	-
+18:59:11	log	content=RxCount = 2	-
+18:59:11	log	content=MessageId =	-
+18:59:11	log	content=TotalPrice = $6	-
+18:59:11	log	content=todayCompleted = 0	-
+18:59:11	log	content=RxNumber_0 = 6635643	-
+18:59:11	log	content=RxPrice_0 =	-
+18:59:11	log	content=RxDrug_0 = Atenolol	-
+18:59:11	log	content=RxGPI_0 = 123455	-
+18:59:11	log	content=RxPickupDateTime_0 =	-
+18:59:11	log	content=RxNumber_1 = 6635642	-
+18:59:11	log	content=RxPrice_1 =	-
+18:59:11	log	content=RxDrug_1 = Benazepril	-
+18:59:11	log	content=RxGPI_1 = 123455	-
+18:59:11	log	content=RxPickupDateTime_1 =	-
+18:59:11	log	content=RxNumber_2 =	-
+18:59:11	log	content=RxPrice_2 =	-
+18:59:11	log	content=RxDrug_2 =	-
+18:59:11	log	content=RxGPI_2 =	-
+18:59:11	log	content=RxPickupDateTime_2 =	-
+18:59:11	log	content=RxNumber_3 =	-
+18:59:11	log	content=RxPrice_3 =	-
+18:59:11	log	content=RxDrug_3 =	-
+18:59:11	log	content=RxGPI_3 =	-
+18:59:11	log	content=RxPickupDateTime_3 =	-
+18:59:11	log	content=RxNumber_4 =	-
+18:59:11	log	content=RxPrice_4 =	-
+18:59:11	log	content=RxDrug_4 =	-
+18:59:11	log	content=RxGPI_4 =	-
+18:59:11	log	content=RxPickupDateTime_4 =	-
+18:59:11	log	content=RxNumber_5 =	-
+18:59:11	log	content=RxPrice_5 =	-
+18:59:11	log	content=RxDrug_5 =	-
+18:59:11	log	content=RxGPI_5 =	-
+18:59:11	log	content=RxPickupDateTime_5 =	-
+18:59:11	log	content=RxNumber_6 =	-
+18:59:11	log	content=RxPrice_6 =	-
+18:59:11	log	content=RxDrug_6 =	-
+18:59:11	log	content=RxGPI_6 =	-
+18:59:11	log	content=RxPickupDateTime_6 =	-
+18:59:11	log	content=RxNumber_7 =	-
+18:59:11	log	content=RxPrice_7 =	-
+18:59:11	log	content=RxDrug_7 =	-
+18:59:11	log	content=RxGPI_7 =	-
+18:59:11	log	content=RxPickupDateTime_7 =	-
+18:59:11	log	content=RxNumber_8 =	-
+18:59:11	log	content=RxPrice_8 =	-
+18:59:11	log	content=RxDrug_8 =	-
+18:59:11	log	content=RxGPI_8 =	-
+18:59:11	log	content=RxPickupDateTime_8 =	-
+18:59:11	log	content=PatientLanguage = 102	-
+18:59:11	log	content=CombinedState =	-
+18:59:11	log	content=DrugIndex = 0	-
+18:59:11	log	content=OptInDate =	-
+18:59:11	log	content=OrderDateTime =	-
+18:59:11	log	content=ShipmentId =	-
+18:59:11	log	content=ShipmentDate =	-
+18:59:11	log	content=TransferNumber = 8175470223	-
+18:59:11	log	content=WestTZ = -5	-
+18:59:11	log	content=WorkOrderId = 91122304041	-
+18:59:11	log	content=RefillArray = Array	-
+18:59:11	log	content=ExitPage =	-
+18:59:11	log	content=WorkOrderType =	-
+18:59:11	log	content=WorkOrderPriority = 4	-
+18:59:11	log	content=RefillNone = true	-
+18:59:11	log	content=RefillHasBeenCompleted = no	-
+18:59:11	log	content=AudioTalent = annamaria	-
+18:59:11	log	content=TtsTalent = Paulina	-
+18:59:11	log	content=DynocatAudioPath = http://promptstore/voice/wicstd/annamaria/dynocat/	-
+18:59:11	log	content=GrammarPath =	-
+18:59:11	log	content=AcousticModel = es-us	-
+18:59:11	log	content=VoiceGrammar =	-
+18:59:11	log	content=CurrentTime = 17:59:09	-
+18:59:11	log	content=DrugArray = Array	-
+18:59:11	log	content=NoDrugNames = false	-
+18:59:11	log	content=GPIArray = Array	-
+18:59:11	log	content=DrugNumberArray = Array	-
+18:59:11	log	content=StoreCloseTime = 19:00	-
+18:59:11	log	content=isHoliday = false	-
+18:59:11	log	content=NextDayIndex = 1	-
+18:59:11	log	content=isSunday =	-
+18:59:11	log	content=NextDate = 0620	-
+18:59:11	log	content=AgeInYears = 13	-
+18:59:11	log	content=isMinor = true	-
+18:59:11	log	expr=start,Doing AMD	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/amd.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.008|documentsize=2651|outcome=success|failover=false|localport=57974|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=2926|byteswritten=316|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/amd.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17376|outcome=success|failover=false|localport=57976|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17677|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:11	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:11	fetch	uri=http://vxmlapps/vxml/amd/subdialog.php?v=1.8|fetchtype=vxml|mimetype=application/voicexml+xml|incache=false|latency=0.003|documentsize=17206|outcome=success|failover=false|localport=37476|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=17463|byteswritten=186|cachedecision=nc(no expiration)|method=GET	-
+18:59:11	document dump	URL=http://vxmlapps/vxml/amd/subdialog.php?v=1.8|fetchtype=vxml|mimetype=application/voicexml+xml	-
+18:59:11	document dump	URL=/opt/holly/client/data/dnis/all.js|fetchtype=script|mimetype=test/javascript	-
+18:59:11	asr session	asrengine=soundecision|sessionid=61219bba741411e8|address=127.0.0.1:8554|server=-|setuptime=0.005|endpoint=127.0.0.1:5998	-
+18:59:11	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=37480|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=300|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:11	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=37482|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=300|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:11	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=37484|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=300|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:11	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.001|documentsize=2000|outcome=success|failover=false|localport=37486|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=300|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:11	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=37488|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=300|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:11	log	content=SounDecision: configured DTMF to be indication of human answer	-
+18:59:11	log	content=SounDecision: dialed number type set to [res]	-
+18:59:11	log	content=dnis: 7513123017	-
+18:59:11	log	content=dnum: 9990004328175470041	-
+18:59:11	fetch	uri=http://vxmlapps/vxml/amd/audio/silence250ms.au|fetchtype=audio|mimetype=audio/basic|incache=false|latency=0.002|documentsize=2000|outcome=success|failover=false|localport=37490|hostname=vxmlapps|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=46|bytesread=2235|byteswritten=300|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:11	prompt	type=external|URI=audio/silence250ms.au|outcome=success	-
+18:59:11	recognition start	inputmodes=dtmf,voice|threshold=50|timeout=2.750|bargeintype=speech|completetimeout=1.700|incompletetimeout=1.700|interdigittimeout=2.000|termtimeout=0.000|termchar='	-
+18:59:14	recognition end	result=no input|inputmode=unknown	-
+18:59:14	vxml_event	event=noinput	-
+18:59:14	log	content=SounDecision: initial - noinput (3032ms = HUMAN)	-
+18:59:14	log	content=SounDecision: restart count currently 0	-
+18:59:14	log	content=*********Machine Detection variables*********	-
+18:59:14	log	content=Human Answered - true	-
+18:59:14	log	expr=start,exit,dialogs/say_Greet.vxml.php	-
+18:59:14	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_Greet.vxml.php?amd.amd_disconnect_state=&amd.amd_dtmf=&amd.amd_duration=3032&amd.amd_noinput=true&amd.amd_result=human|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.058|documentsize=32364|outcome=success|failover=false|localport=57996|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=193|bytesread=32682|byteswritten=434|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:14	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_Greet.vxml.php?amd.amd_disconnect_state=&amd.amd_dtmf=&amd.amd_duration=3032&amd.amd_noinput=true&amd.amd_result=human|fetchtype=vxml|mimetype=text/html	-
+18:59:14	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17376|outcome=success|failover=false|localport=57998|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17677|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:14	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:14	asr session	asrengine=dtmf|sessionid=dtmf:linux6425:wichllyp:969|setuptime=0.000	-
+18:59:14	log	expr=say_Greet,enter	-
+18:59:14	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+18:59:14	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+18:59:14	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+18:59:14	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:14	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:14	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=58000|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+18:59:14	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:14	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/Greet.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.006|documentsize=63636|outcome=success|failover=false|localport=45268|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=64|bytesread=63873|byteswritten=234|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:14	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/Greet.wav|outcome=success	-
+18:59:14	system response	latency=0.135	-
+18:59:22	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+18:59:22	recognition end	result=no input|inputmode=unknown	-
+18:59:22	vxml_event	event=noinput	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=58010|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=756|cachedecision=n/a|method=POST	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1538|outcome=success|failover=false|localport=58012|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1812|byteswritten=701|cachedecision=n/a|method=POST	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=58014|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=750|cachedecision=n/a|method=POST	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1429|outcome=success|failover=false|localport=58016|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1703|byteswritten=665|cachedecision=n/a|method=POST	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:22	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+18:59:22	log	expr=WicStdPromptAndCollect END	-
+18:59:22	log	expr=say_Greet,exit,database/db_GetDrugNames.vxml.php	-
+18:59:22	log	expr=F2 F2	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/database/db_GetDrugNames.vxml.php?formField=|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.086|documentsize=1157|outcome=success|failover=false|localport=58018|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=1432|byteswritten=348|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/database/db_GetDrugNames.vxml.php?formField=|fetchtype=vxml|mimetype=text/html	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17376|outcome=success|failover=false|localport=58020|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17677|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:22	log	expr=db_GetDrugNames,enter	-
+18:59:22	log	expr=db_GetDrugNames,exit,database/prompts/prompt_RPC.vxml.php	-
+18:59:22	log	expr=db_GetDrugNames,exit,prompts/prompt_Minor.vxml.php	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/prompts/prompt_Minor.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.069|documentsize=63850|outcome=success|failover=false|localport=58022|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=92|bytesread=64200|byteswritten=333|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/prompts/prompt_Minor.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.017|documentsize=17376|outcome=success|failover=false|localport=58024|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17677|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:22	log	expr=prompt_Minor,enter	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+18:59:22	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:22	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.014|documentsize=87|outcome=success|failover=false|localport=58026|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+18:59:22	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:22	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/Minor_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=21108|outcome=success|failover=false|localport=45294|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=66|bytesread=21345|byteswritten=236|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:22	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/Minor_1.wav|outcome=success	-
+18:59:22	prompt	type=SSML|content=<prosody rate=".9" volume="100.0"><say-as interpret-as="name">RonnWV</say-as></prosody>|language=en-US|outcome=success	-
+18:59:22	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/Minor_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=26290|outcome=success|failover=false|localport=45296|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=66|bytesread=26527|byteswritten=236|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:22	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/Minor_2.wav|outcome=success	-
+18:59:22	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_12.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=289|outcome=success|failover=false|hostname=grammarstore|urilength=56|cachedecision=in(Last Modified)	-
+18:59:22	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_12.grxml|fetchtype=grammar|mimetype=text/plain	-
+18:59:22	system response	latency=0.334	-
+18:59:22	recognition start	inputmodes=dtmf|threshold=20|timeout=3.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+18:59:30	recognition end	result=success|inputmode=dtmf|utterance=1|confidence=100|grammar=Grammar_0|bargein=false|recordutterances=N	-
+18:59:30	log	expr=WicStdFormValue = 1	-
+18:59:30	log	expr=WicStdFormConfidence = 100	-
+18:59:30	log	expr=WicStdFormUtterance = 1	-
+18:59:30	log	expr=WicStdFormInputMode = dtmf	-
+18:59:30	log	expr=WicStdCompleteNBestStr = 1^^^1^^^1^^^dtmf	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.009|documentsize=1555|outcome=success|failover=false|localport=58042|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1829|byteswritten=714|cachedecision=n/a|method=POST	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=58044|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=762|cachedecision=n/a|method=POST	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1548|outcome=success|failover=false|localport=58046|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1822|byteswritten=707|cachedecision=n/a|method=POST	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:30	log	expr=Summary : OK,1,0,0,dtmf,100,undefined	-
+18:59:30	log	expr=WicStdPromptAndCollect END	-
+18:59:30	log	content=*********** PnC VARIABLES *****************	-
+18:59:30	log	content=WicStdResult is: OK	-
+18:59:30	log	content=WicStdFormValue is: 1	-
+18:59:30	log	content=WicStdFormNomatchCount is: 0	-
+18:59:30	log	content=WicStdFormNoinputCount is: 0	-
+18:59:30	log	content=WicStdFormInputMode is: dtmf	-
+18:59:30	log	content=WicStdError is: undefined	-
+18:59:30	log	content=WicStdFormFailCount is: 0	-
+18:59:30	log	expr=prompt_Minor,to say_AuthRefillMulti	-
+18:59:30	log	expr=prompt_Minor,exit,dialogs/say_AuthRefillMulti.vxml.php	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_AuthRefillMulti.vxml.php?formField=1|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.070|documentsize=33281|outcome=success|failover=false|localport=58048|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=111|bytesread=33604|byteswritten=352|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_AuthRefillMulti.vxml.php?formField=1|fetchtype=vxml|mimetype=text/html	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17376|outcome=success|failover=false|localport=58050|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17677|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:30	log	expr=say_AuthRefillMulti,enter	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+18:59:30	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:30	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=58052|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+18:59:30	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:30	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=5484|outcome=success|failover=false|localport=45320|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=5720|byteswritten=246|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:30	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti_1.wav|outcome=success	-
+18:59:30	prompt	type=SSML|content=<prosody rate=".9" volume="100.0"><say-as interpret-as="name">RonnWV</say-as></prosody>|language=en-US|outcome=success	-
+18:59:30	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=27444|outcome=success|failover=false|localport=45322|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=27681|byteswritten=246|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:30	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti_2.wav|outcome=success	-
+18:59:30	fetch	uri=http://promptstore/voice/wicstd/annamaria/dynocat/snum02.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=5572|outcome=success|failover=false|localport=45324|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=60|bytesread=5808|byteswritten=230|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:30	prompt	type=external|URI=http://promptstore/voice/wicstd/annamaria/dynocat/snum02.wav|outcome=success	-
+18:59:30	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti_3.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=15108|outcome=success|failover=false|localport=45326|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=15345|byteswritten=246|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:30	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti_3.wav|outcome=success	-
+18:59:31	system response	latency=0.206	-
+18:59:39	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+18:59:39	recognition end	result=no input|inputmode=unknown	-
+18:59:39	vxml_event	event=noinput	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=58072|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=776|cachedecision=n/a|method=POST	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1549|outcome=success|failover=false|localport=58074|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1823|byteswritten=712|cachedecision=n/a|method=POST	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.016|documentsize=87|outcome=success|failover=false|localport=58076|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=770|cachedecision=n/a|method=POST	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1440|outcome=success|failover=false|localport=58078|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1714|byteswritten=676|cachedecision=n/a|method=POST	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:39	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+18:59:39	log	expr=WicStdPromptAndCollect END	-
+18:59:39	log	expr=say_AuthRefillMulti,exit,prompts/prompt_AuthRefillMulti1NameAvail.vxml.php	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/prompts/prompt_AuthRefillMulti1NameAvail.vxml.php?formField=|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.075|documentsize=67109|outcome=success|failover=false|localport=58080|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=123|bytesread=67464|byteswritten=364|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/prompts/prompt_AuthRefillMulti1NameAvail.vxml.php?formField=|fetchtype=vxml|mimetype=text/html	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17376|outcome=success|failover=false|localport=58084|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17677|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:39	log	expr=prompt_AuthRefillMulti1NameAvail,enter	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+18:59:39	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:39	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=58086|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+18:59:39	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:39	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti1NameAvail_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.006|documentsize=97104|outcome=success|failover=false|localport=45354|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=86|bytesread=97342|byteswritten=256|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:39	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti1NameAvail_1.wav|outcome=success	-
+18:59:39	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti1NameAvail_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=34322|outcome=success|failover=false|localport=45356|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=86|bytesread=34559|byteswritten=256|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:39	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/AuthRefillMulti1NameAvail_2.wav|outcome=success	-
+18:59:39	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_1234.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=329|outcome=success|failover=false|hostname=grammarstore|urilength=58|cachedecision=in(Last Modified)	-
+18:59:39	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_1234.grxml|fetchtype=grammar|mimetype=text/plain	-
+18:59:39	system response	latency=0.231	-
+18:59:39	recognition start	inputmodes=dtmf|threshold=20|timeout=3.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+18:59:49	recognition end	result=success|inputmode=dtmf|utterance=1|confidence=100|grammar=Grammar_0|bargein=true|recordutterances=N	-
+18:59:49	log	expr=WicStdFormValue = 1	-
+18:59:49	log	expr=WicStdFormConfidence = 100	-
+18:59:49	log	expr=WicStdFormUtterance = 1	-
+18:59:49	log	expr=WicStdFormInputMode = dtmf	-
+18:59:49	log	expr=WicStdCompleteNBestStr = 1^^^1^^^1^^^dtmf	-
+18:59:49	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1577|outcome=success|failover=false|localport=58100|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1851|byteswritten=736|cachedecision=n/a|method=POST	-
+18:59:49	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:49	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:49	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:49	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.016|documentsize=87|outcome=success|failover=false|localport=58102|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=804|cachedecision=n/a|method=POST	-
+18:59:49	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:49	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1570|outcome=success|failover=false|localport=58104|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1844|byteswritten=729|cachedecision=n/a|method=POST	-
+18:59:49	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:49	log	expr=Summary : OK,1,0,0,dtmf,100,undefined	-
+18:59:49	log	expr=WicStdPromptAndCollect END	-
+18:59:49	log	content=*********** PnC VARIABLES *****************	-
+18:59:49	log	content=WicStdResult is: OK	-
+18:59:49	log	content=WicStdFormValue is: 1	-
+18:59:49	log	content=WicStdFormNomatchCount is: 0	-
+18:59:49	log	content=WicStdFormNoinputCount is: 0	-
+18:59:49	log	content=WicStdFormInputMode is: dtmf	-
+18:59:49	log	content=WicStdError is: undefined	-
+18:59:49	log	content=WicStdFormFailCount is: 0	-
+18:59:49	log	expr=prompt_AuthRefillMulti1NameAvail,to say_Refill2NameAvail	-
+18:59:49	log	expr=prompt_AuthRefillMulti1NameAvail,exit,api/api_CreateRefill.vxml.php	-
+18:59:51	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/api/api_CreateRefill.vxml.php?ExitPage=dialogs%2Fsay_Refill2NameAvail.vxml.php&WorkOrderPriority=4&WorkOrderType=all|fetchtype=vxml|mimetype=text/html|incache=false|latency=2.206|documentsize=2768|outcome=success|failover=false|localport=58106|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=179|bytesread=3043|byteswritten=420|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:51	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/api/api_CreateRefill.vxml.php?ExitPage=dialogs%2Fsay_Refill2NameAvail.vxml.php&WorkOrderPriority=4&WorkOrderType=all|fetchtype=vxml|mimetype=text/html	-
+18:59:51	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.017|documentsize=17378|outcome=success|failover=false|localport=58110|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17679|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:51	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:51	log	expr=api_CreateRefill,enter	-
+18:59:51	log	content=API all === true	-
+18:59:51	log	content=API adding drug 6635643	-
+18:59:51	log	content=API adding drug 6635642	-
+18:59:51	log	content=API store number 5529	-
+18:59:51	log	content=API priority code 4	-
+18:59:51	log	content=API workorderid code 91122304041	-
+18:59:51	log	content=API workordertype code all	-
+18:59:51	log	content=API curr seq code 2	-
+18:59:51	log	content=API seq max code 2	-
+18:59:51	log	content=API Session WorkOrderSeq seq code 1	-
+18:59:51	log	content=API Session seq max code 2	-
+18:59:51	log	content=API phone number code 8175470041	-
+18:59:51	log	content=API id code 2921356	-
+18:59:51	log	content=API dob code 06/07/2005	-
+18:59:51	log	content=API rx number code 6635643	-
+18:59:51	log	content=API RefillNone false	-
+18:59:51	log	content=API Entering Exit Page = dialogs/say_Refill2NameAvail.vxml.php	-
+18:59:51	log	content=API status code 2000	-
+18:59:51	log	content=API status desc Request completed successfully.	-
+18:59:51	log	content=API original request {"requestType":"msgRefillOrder","consumer":"1","version":"2.0","order":{"pickUpStoreNum":"5529","priority":"4","workOrderId":"91122304041","workOrderType":"all","workOrderSeqCurrent":"2","workOrderSeqMax":"2","patient":{"phoneNumber":"8175470041","customerId":"2921356","dateOfBirth":"06\/07\/2005","rxNbrs":["6635643","6635642"]}}}	-
+18:59:51	log	content=API WestRecordId 91122304	-
+18:59:51	log	content=API Call Ref Id e4008-20180619185905186-962	-
+18:59:51	log	content=API RxDetails 0	-
+18:59:51	log	content=API Rx0 1	-
+18:59:51	log	content=API Rx1 0	-
+18:59:51	log	content=API Rx2 0	-
+18:59:51	log	content=API Rx3 0	-
+18:59:51	log	content=API Rx4 0	-
+18:59:51	log	content=API Rx5 0	-
+18:59:51	log	content=API Rx6 0	-
+18:59:51	log	content=API Rx7 0	-
+18:59:51	log	content=API Rx8 0	-
+18:59:51	log	content=API active 1	-
+18:59:51	log	content=API apiresult 2000	-
+18:59:51	log	content=API reminder 0	-
+18:59:51	log	content=API RefillHasBeenCompleted true	-
+18:59:51	log	content=API todayCompleted 0	-
+18:59:51	log	content=API Leaving Exit Page = dialogs/say_Refill2NameAvail.vxml.php	-
+18:59:51	log	expr=api_CreateRefill,exit,dialogs/say_Refill2NameAvail.vxml.php	-
+18:59:51	log	expr=api_CreateRefill,exit,dialogs/say_Refill2NameAvail.vxml.php	-
+18:59:51	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_Refill2NameAvail.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.081|documentsize=32908|outcome=success|failover=false|localport=58112|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=100|bytesread=33226|byteswritten=341|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:51	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_Refill2NameAvail.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:51	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17378|outcome=success|failover=false|localport=58114|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17679|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+18:59:51	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+18:59:51	log	expr=say_Refill2NameAvail,enter	-
+18:59:51	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+18:59:51	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+18:59:51	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+18:59:51	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+18:59:51	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+18:59:51	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=58116|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+18:59:51	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+18:59:51	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/Refill2NameAvail_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=50356|outcome=success|failover=false|localport=45384|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=50593|byteswritten=247|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:51	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/Refill2NameAvail_1.wav|outcome=success	-
+18:59:51	prompt	type=SSML|content=<prosody rate=".9" volume="100.0"><say-as interpret-as="address">11808 Miracle Hills</say-as></prosody>|language=en-US|outcome=success	-
+18:59:51	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/Refill2NameAvail_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=15316|outcome=success|failover=false|localport=45386|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=77|bytesread=15553|byteswritten=247|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+18:59:51	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/Refill2NameAvail_2.wav|outcome=success	-
+18:59:51	system response	latency=2.455	-
+19:00:02	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+19:00:02	recognition end	result=no input|inputmode=unknown	-
+19:00:02	vxml_event	event=noinput	-
+19:00:02	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:02	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:02	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=58142|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=778|cachedecision=n/a|method=POST	-
+19:00:02	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:02	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1550|outcome=success|failover=false|localport=58144|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1824|byteswritten=713|cachedecision=n/a|method=POST	-
+19:00:02	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:02	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:02	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:02	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.016|documentsize=87|outcome=success|failover=false|localport=58146|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=772|cachedecision=n/a|method=POST	-
+19:00:02	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:02	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.009|documentsize=1441|outcome=success|failover=false|localport=58148|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1715|byteswritten=677|cachedecision=n/a|method=POST	-
+19:00:02	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:02	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+19:00:02	log	expr=WicStdPromptAndCollect END	-
+19:00:02	log	content=store close Time = 19:00	-
+19:00:02	log	expr=say_Refill2NameAvail,exit,prompts/prompt_OptOut.vxml.php	-
+19:00:03	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/prompts/prompt_OptOut.vxml.php?formField=|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.063|documentsize=57651|outcome=success|failover=false|localport=58150|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=104|bytesread=57993|byteswritten=345|cachedecision=nc(pragma no-cache)|method=GET	-
+19:00:03	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/prompts/prompt_OptOut.vxml.php?formField=|fetchtype=vxml|mimetype=text/html	-
+19:00:03	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.016|documentsize=17378|outcome=success|failover=false|localport=58152|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17679|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+19:00:03	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+19:00:03	log	expr=prompt_OptOut,enter	-
+19:00:03	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+19:00:03	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+19:00:03	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+19:00:03	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:03	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:03	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=58154|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+19:00:03	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:03	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/OptOut.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=27494|outcome=success|failover=false|localport=45422|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=65|bytesread=27731|byteswritten=235|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+19:00:03	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/OptOut.wav|outcome=success	-
+19:00:03	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=269|outcome=success|failover=false|hostname=grammarstore|urilength=55|cachedecision=in(Last Modified)	-
+19:00:03	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain	-
+19:00:03	system response	latency=0.211	-
+19:00:03	recognition start	inputmodes=dtmf|threshold=20|timeout=1.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+19:00:07	recognition end	result=no input|inputmode=unknown	-
+19:00:07	vxml_event	event=noinput	-
+19:00:07	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:07	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:07	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.014|documentsize=87|outcome=success|failover=false|localport=58164|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=765|cachedecision=n/a|method=POST	-
+19:00:07	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:07	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1544|outcome=success|failover=false|localport=58166|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1818|byteswritten=703|cachedecision=n/a|method=POST	-
+19:00:07	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:07	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=269|outcome=success|failover=false|hostname=grammarstore|urilength=55|cachedecision=in(Last Modified)	-
+19:00:07	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain	-
+19:00:07	recognition start	inputmodes=dtmf|threshold=20|timeout=1.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+19:00:08	recognition end	result=no input|inputmode=unknown	-
+19:00:08	vxml_event	event=noinput	-
+19:00:08	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:08	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:08	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=58168|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=765|cachedecision=n/a|method=POST	-
+19:00:08	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:08	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1544|outcome=success|failover=false|localport=58170|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1818|byteswritten=703|cachedecision=n/a|method=POST	-
+19:00:08	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:08	fetch	uri=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain|incache=true|latency=0.000|documentsize=269|outcome=success|failover=false|hostname=grammarstore|urilength=55|cachedecision=in(Last Modified)	-
+19:00:08	document dump	URL=http://grammarstore/grammar/dtmf/menu/dtmf_menu_7.grxml|fetchtype=grammar|mimetype=text/plain	-
+19:00:08	recognition start	inputmodes=dtmf|threshold=20|timeout=1.000|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+19:00:09	recognition end	result=no input|inputmode=unknown	-
+19:00:09	vxml_event	event=noinput	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.013|documentsize=87|outcome=success|failover=false|localport=58172|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=765|cachedecision=n/a|method=POST	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1544|outcome=success|failover=false|localport=58174|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1818|byteswritten=703|cachedecision=n/a|method=POST	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=58176|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=759|cachedecision=n/a|method=POST	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1435|outcome=success|failover=false|localport=58178|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1709|byteswritten=667|cachedecision=n/a|method=POST	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:09	log	expr=Summary : MAXFAIL,undefined,0,3,undefined,undefined,undefined	-
+19:00:09	log	expr=WicStdPromptAndCollect END	-
+19:00:09	log	content=*********** PnC VARIABLES *****************	-
+19:00:09	log	content=WicStdResult is: MAXFAIL	-
+19:00:09	log	content=WicStdFormValue is: undefined	-
+19:00:09	log	content=WicStdFormNomatchCount is: 0	-
+19:00:09	log	content=WicStdFormNoinputCount is: 3	-
+19:00:09	log	content=WicStdFormInputMode is: undefined	-
+19:00:09	log	content=WicStdError is: undefined	-
+19:00:09	log	content=WicStdFormFailCount is: 3	-
+19:00:09	log	expr=prompt_OptOut,exit,dialogs/say_GoodbyeMulti.vxml.php	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_GoodbyeMulti.vxml.php?formField=|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.056|documentsize=32732|outcome=success|failover=false|localport=58180|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=107|bytesread=33050|byteswritten=348|cachedecision=nc(pragma no-cache)|method=GET	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/dialogs/say_GoodbyeMulti.vxml.php?formField=|fetchtype=vxml|mimetype=text/html	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17378|outcome=success|failover=false|localport=58182|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17679|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+19:00:09	log	expr=say_GoodbyeMulti,enter	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=108953|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=59|cachedecision=in(Last Modified)	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/dynocat.js|fetchtype=script|mimetype=application/javascript	-
+19:00:09	log	expr=WicStdPromptAndCollect version 1.14.0 (20180413)	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:09	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.012|documentsize=87|outcome=success|failover=false|localport=58184|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=509|cachedecision=n/a|method=POST	-
+19:00:09	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:09	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/GoodbyeMulti_1.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.005|documentsize=81128|outcome=success|failover=false|localport=45452|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=73|bytesread=81366|byteswritten=243|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+19:00:09	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/GoodbyeMulti_1.wav|outcome=success	-
+19:00:09	fetch	uri=http://promptstore/voice/wicstd/annamaria/dynocat/817.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.004|documentsize=17230|outcome=success|failover=false|localport=45454|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=17467|byteswritten=227|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+19:00:09	prompt	type=external|URI=http://promptstore/voice/wicstd/annamaria/dynocat/817.wav|outcome=success	-
+19:00:09	fetch	uri=http://promptstore/voice/wicstd/annamaria/dynocat/547.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=17280|outcome=success|failover=false|localport=45456|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=17517|byteswritten=227|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+19:00:09	prompt	type=external|URI=http://promptstore/voice/wicstd/annamaria/dynocat/547.wav|outcome=success	-
+19:00:09	fetch	uri=http://promptstore/voice/wicstd/annamaria/dynocat/f02.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=11684|outcome=success|failover=false|localport=45458|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=11921|byteswritten=227|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+19:00:09	prompt	type=external|URI=http://promptstore/voice/wicstd/annamaria/dynocat/f02.wav|outcome=success	-
+19:00:09	fetch	uri=http://promptstore/voice/wicstd/annamaria/dynocat/s23.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=9974|outcome=success|failover=false|localport=45460|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=57|bytesread=10210|byteswritten=227|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+19:00:09	prompt	type=external|URI=http://promptstore/voice/wicstd/annamaria/dynocat/s23.wav|outcome=success	-
+19:00:09	fetch	uri=http://promptstore/voice/samsclub/refillreminder/es-us/GoodbyeMulti_2.wav|fetchtype=audio|mimetype=audio/x-wav|incache=false|latency=0.003|documentsize=15596|outcome=success|failover=false|localport=45462|hostname=promptstore|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=73|bytesread=15833|byteswritten=243|cachedecision=ca(vxml maxage)(Last Modified)|method=GET	-
+19:00:09	prompt	type=external|URI=http://promptstore/voice/samsclub/refillreminder/es-us/GoodbyeMulti_2.wav|outcome=success	-
+19:00:09	system response	latency=0.216	-
+19:00:28	recognition start	inputmodes=dtmf|threshold=20|timeout=0.003|bargeintype=speech|completetimeout=1.500|incompletetimeout=0.000|interdigittimeout=1.750|termtimeout=0.000|termchar=#	-
+19:00:28	recognition end	result=no input|inputmode=unknown	-
+19:00:28	vxml_event	event=noinput	-
+19:00:28	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:28	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:28	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.014|documentsize=87|outcome=success|failover=false|localport=58214|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=770|cachedecision=n/a|method=POST	-
+19:00:28	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:28	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.008|documentsize=1545|outcome=success|failover=false|localport=58216|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1819|byteswritten=708|cachedecision=n/a|method=POST	-
+19:00:28	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:28	fetch	uri=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript|incache=true|latency=0.000|documentsize=1537|outcome=success|failover=false|hostname=linux2441.wic.west.com|urilength=58|cachedecision=in(Last Modified)	-
+19:00:28	document dump	URL=http://linux2441.wic.west.com/ecmascripts/wicstd/parser.js|fetchtype=script|mimetype=application/javascript	-
+19:00:29	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.015|documentsize=87|outcome=success|failover=false|localport=58218|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=359|byteswritten=764|cachedecision=n/a|method=POST	-
+19:00:29	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/drrlogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:29	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.009|documentsize=1437|outcome=success|failover=false|localport=58220|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1711|byteswritten=673|cachedecision=n/a|method=POST	-
+19:00:29	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:29	log	expr=Summary : MAXFAIL,undefined,0,1,undefined,undefined,undefined	-
+19:00:29	log	expr=WicStdPromptAndCollect END	-
+19:00:29	disconnect		-
+19:00:29	vxml_event	event=connection.disconnect.hangup|message=application disconnect	-
+19:00:29	log	content=**********Disconnecting call Hangup*********	-
+19:00:29	log	content= Event: connection.disconnect.hangup Message: application disconnect	-
+19:00:29	log	content=No api hits in call	-
+19:00:29	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/end.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.011|documentsize=6407|outcome=success|failover=false|localport=58222|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=75|bytesread=6682|byteswritten=396|cachedecision=n/a|method=POST	-
+19:00:29	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/end.vxml.php|fetchtype=vxml|mimetype=text/html	-
+19:00:29	fetch	uri=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.015|documentsize=17378|outcome=success|failover=false|localport=58224|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=76|bytesread=17679|byteswritten=317|cachedecision=nc(pragma no-cache)|method=GET	-
+19:00:29	document dump	URL=http://linux2441.wic.west.com/vxml/samsclub/refillreminder/dev/root.vxml.php|fetchtype=vxml|mimetype=text/html	-
+19:00:29	log	expr=end,enter	-
+19:00:29	log	expr=secDur is 84 seconds	-
+19:00:29	log	expr=msDur is 84094 seconds	-
+19:00:29	log	content=CallDisposition = F2	-
+19:00:29	log	content=END EXIT	-
+19:00:29	fetch	uri=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml|incache=false|latency=0.007|documentsize=1027|outcome=success|failover=false|localport=58226|hostname=linux2441.wic.west.com|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=67|bytesread=1301|byteswritten=551|cachedecision=n/a|method=POST	-
+19:00:29	document dump	URL=http://linux2441.wic.west.com/webservices/wicstd/txllogging.xml.php|fetchtype=data|mimetype=text/xml	-
+19:00:29	log	content=Disposition - F2	-
+19:00:29	log	content=HumanAnswered - true	-
+19:00:29	vxml_event	event=connection.disconnect.hangup	-
+19:00:29	vxml_event	event=event.mml_dialog_complete	-
+19:00:29	fetch	uri=http://10.27.122.135/vxml/submitresponse.asp|fetchtype=vxml|mimetype=text/html|incache=false|latency=0.035|documentsize=244|outcome=success|failover=false|localport=38690|hostname=10.27.122.135|exlocalport=0|httpstatus=200|httpstatusdesc=OK|urilength=44|bytesread=617|byteswritten=723|cachedecision=n/a|method=POST	-
+19:00:29	document dump	URL=http://10.27.122.135/vxml/submitresponse.asp|fetchtype=vxml|mimetype=text/html	-
+19:00:29	exit	result=exit	-
+19:00:29	call end	cpu=0.730|normalcpu=0.730|callduration=83.964|connectedduration=78.137|timetofirstprompt=0.278|reccount=10|ttscount=3|ttsduration=6.500|asrduration=3.143|logcount=593|logbytes=74594	-
+ 
