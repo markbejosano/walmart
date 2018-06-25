@@ -134,7 +134,7 @@ if __name__ == "__main__":
             overall_passed = 0
             testcases = 0
             percentage = 0
-            totalper = str(percentage) + '%'
+            totalper = "N/A"
             gen_report.write(
                 "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
         else:
