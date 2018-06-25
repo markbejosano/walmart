@@ -134,15 +134,15 @@ if __name__ == "__main__":
         check_len_passed = len(check_if_NA_passed)
         check_len_testcases = len(check_if_NA_testcases)
         if check_len_passed==0 and check_len_testcase==0:
-            totalper = '0%'
+            overall_passed = 0
+            testcases = 0
         #end of new added code ----
-        else:
-            percentage = Decimal(overall_passed) / Decimal(testcases) * 100
-            totalper = str(percentage) + '%'
-            gen_report.write(
-                "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
-            writetime = open("writetime.txt","a")
-            writetime.write("TransferType Percentage= " + totalper + "\n")
+        percentage = Decimal(overall_passed) / Decimal(testcases) * 100
+        totalper = str(percentage) + '%'
+        gen_report.write(
+            "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
+        writetime = open("writetime.txt","a")
+        writetime.write("TransferType Percentage= " + totalper + "\n")
             
     if failed == 1:
         print"\n\n\n"
