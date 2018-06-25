@@ -129,11 +129,7 @@ if __name__ == "__main__":
         getcontext().prec = 3
         
         #new added code ----------
-        check_if_NA_passed = str(overall_passed)
-        check_if_NA_testcases = str(testcases)
-        check_len_passed = len(check_if_NA_passed)
-        check_len_testcases = len(check_if_NA_testcases)
-        if check_len_passed==0 and check_len_testcase==0:
+        if overall_passed<=0 and testcases<=0:
             overall_passed = 0
             testcases = 0
         #end of new added code ----
