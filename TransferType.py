@@ -134,6 +134,9 @@ if __name__ == "__main__":
             overall_passed = 0
             testcases = 0
             percentage = 0
+            totalper = str(percentage) + '%'
+            gen_report.write(
+                "</table><table align='center'> <tr><td><h3>Passed: " + totalper + "</h3></td></tr> </table>")
         else:
         #end of new added code ----
             percentage = Decimal(overall_passed) / Decimal(testcases) * 100
